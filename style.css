@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.eqImage {
+    margin: 22px;
+    border-radius: 5%;
+}
+
+.mainContainer {
+    background-color: hsl(216, 50%, 16%);
+    height: 530px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.mainText {
+    color: hsl(215, 51%, 70%);
+    margin: 10px 20px;
+    font-weight: 300;
+}
+
+.diamondText {
+    color: hsl(178, 100%, 50%);
+    margin: 0px 7px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.daysText {
+    color: hsl(215, 51%, 70%);
+    margin: 0px 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    /* padding-top: 5px; */
+    margin-right: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px 20px 15px;
+    align-items: center;
+}
+
+.avImage {
+    height: 30px;
+    border: hsl(0, 0%, 100%) solid 1px;
+    border-radius: 50%;
+    margin: 15px 15px 0 0;
+}
+
+.creation {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    border-top: hsl(215, 51%, 70%) solid;
+    margin: 0 20px;
+}
+
+.creationText {
+    margin: 20px 15px 0 0;
+    font-size: 14px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
