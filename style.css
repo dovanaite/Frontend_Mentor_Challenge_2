@@ -49,7 +49,7 @@ body {
 
 .mainContainer {
     background-color: hsl(216, 50%, 16%);
-    height: 535px;
+    height: 555px;
     width: 330px;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ body {
 
 h1 {
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 25px;
     color: hsl(0, 0%, 100%);
 }
@@ -97,7 +97,7 @@ h1 {
     height: 30px;
     border: hsl(0, 0%, 100%) solid 1px;
     border-radius: 50%;
-    margin: 15px 13px 0 2px;
+    margin: 20px 13px 0 2px;
 }
 
 .creation {
@@ -107,7 +107,7 @@ h1 {
 }
 
 .creationText {
-    margin: 20px 15px 0 0;
+    margin: 25px 15px 0 0;
     font-size: 14px;
 }
 
