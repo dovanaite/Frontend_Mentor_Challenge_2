@@ -16,7 +16,6 @@ body {
 
 .eqImage {
     width: 100%;
-    /* margin: 22px; */
     border-radius: 5%;
     z-index: 99;
 }
